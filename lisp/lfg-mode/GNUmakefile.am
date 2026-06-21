@@ -1,0 +1,6 @@
+emacsdir = $(pkgdatadir)/emacs
+emacs_DATA = \
+	lfg-mode.el \
+	lfg-mode.elc \
+	prs-mode.el
+

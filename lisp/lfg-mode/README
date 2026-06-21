@@ -1,0 +1,3 @@
+lfg-mode.el is maintained by Mary Dalrymple (mary@dcs.kcl.au.uk).  To
+compile it, load it into emacs and type M-x byte-compile-file<RET>.  It
+will prompt you for the file you want to compile.

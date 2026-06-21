@@ -235,6 +235,12 @@ folders.
 #+end_src
 
 * LaTeX
+** Setting =bibtex-dialect=
+#+begin_src emacs-lisp
+;; (setq bibtex-dialect 'BibTeX)
+(after! bibtex
+  (setq bibtex-dialect 'BibTeX)) ; Trying this out because the simpler one didn't stick
+#+end_src
 ** Fix clash with ~python +pyenv~ module
 The Doom Python pyenv module maps =C-c C-s= to ~pyenv-mode-set~ and overwrites the same keybinding for ~LaTeX-section~. Since I use LaTeX more than I use pyenv, let's fix that.
 #+begin_src emacs-lisp
@@ -244,7 +250,6 @@ The Doom Python pyenv module maps =C-c C-s= to ~pyenv-mode-set~ and overwrites t
   (map! :after python
         "C-c C-s" nil)
 #+end_src
-
 ** Associate .tex files with ~LaTeX-mode~ not ~latex-mode~
 (Issue started with update on 7/1/25.)
 #+begin_src emacs-lisp

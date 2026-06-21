@@ -112,6 +112,10 @@
 
 (setq projectile-track-known-projects-automatically nil)
 
+;; (setq bibtex-dialect 'BibTeX)
+(after! bibtex
+  (setq bibtex-dialect 'BibTeX)) ; Trying this out because the simpler one didn't stick
+
 ;; (map! :after python
 ;;       :mode LaTeX-mode-map
 ;;       "C-c C-s" #'LaTeX-section)
