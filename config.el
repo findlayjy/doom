@@ -134,9 +134,10 @@
 
 (setq latex-templates-list '(("Article" . "article-template.tex")
                              ("Tufte-style handout" . "tufte-handout-template.tex")
-                             ("Plain" . "plain-template.tex")
+                             ("Clean/Plain lecture handout" . "clean-handout-template.tex")
                              ("Conference presentation slides" . "conference-presentation-template.tex")
                              ("Lecture slides" . "lecture-template.tex")
+                             ("Plain" . "plain-template.tex")
                              ("Specify your own template file" . "")))
 
 (defun new-latex ()

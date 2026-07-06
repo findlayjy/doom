@@ -280,9 +280,10 @@ List of templates with keys for the ~new-latex~ function. Also abstract? 'resear
 #+begin_src emacs-lisp
 (setq latex-templates-list '(("Article" . "article-template.tex")
                              ("Tufte-style handout" . "tufte-handout-template.tex")
-                             ("Plain" . "plain-template.tex")
+                             ("Clean/Plain lecture handout" . "clean-handout-template.tex")
                              ("Conference presentation slides" . "conference-presentation-template.tex")
                              ("Lecture slides" . "lecture-template.tex")
+                             ("Plain" . "plain-template.tex")
                              ("Specify your own template file" . "")))
 #+end_src
 
