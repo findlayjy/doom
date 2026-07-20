@@ -27,9 +27,9 @@
 
 (setq +doom-dashboard-ascii-banner-fn #'minimal-banner-fn)
 
-(setq doom-font (font-spec :family "JetBrainsMono NF" :size 14 :weight 'semi-light)
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 14 :weight 'semi-light)
       doom-variable-pitch-font (font-spec :family "Palatino Linotype" :size 16)
-     doom-variable-pitch-font (font-spec :family "Source Sans Pro" :size 14)
+     doom-variable-pitch-font (font-spec :family "Source Sans 3"  :size 14)
                )
 
 (setq doom-symbol-font (font-spec :family "JetBrainsMono Nerd Font" :size 11))
